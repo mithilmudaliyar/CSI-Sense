@@ -1,0 +1,37 @@
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data files (large / per-session captures stay local)
+data/raw/*
+data/processed/*
+data/synthetic/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/synthetic/.gitkeep
+*.parquet
+
+# Trained model artifacts
+ml/models/*.joblib
+ml/models/*.pkl
+ml/models/*.pt
+
+# Firmware build artifacts
+firmware/**/build/
+firmware/**/sdkconfig.old
+.pio/
+.platformio/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml

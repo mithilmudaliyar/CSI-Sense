@@ -1,0 +1,23 @@
+# Core scientific stack (Python 3.14 — needs recent wheels)
+numpy>=2.3
+pandas>=2.3
+scipy>=1.16
+matplotlib>=3.10
+scikit-learn>=1.7
+PyWavelets>=1.9
+pyserial>=3.5
+joblib>=1.4
+
+# Dashboard
+streamlit>=1.40
+
+# Storage (Parquet support; falls back to CSV if unavailable)
+pyarrow>=21.0
+
+# Testing
+pytest>=8.3
+
+# OPTIONAL deep-learning extra (NOT required for the base system).
+# Install separately only if you want the LSTM/CNN fall-detector extension:
+#   py -m pip install torch
+# See ml/fall.py extension point and docs/decision-log.md.
