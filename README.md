@@ -1,4 +1,4 @@
-# csi-sense — WiFi CSI Human Sensing
+# CSI-Sense — WiFi CSI Human Sensing
 
 Device-free **presence**, **fall**, and **people-counting (0/1/2)** using WiFi
 Channel State Information (CSI) from cheap **ESP32-WROOM-32** boards. No
