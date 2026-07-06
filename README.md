@@ -110,7 +110,7 @@ the true packet rate (`sample_rate_hz`), record an empty-room baseline to set
 `quiet_floor` and `min_peak_ratio` in `pipeline/config.py`. See
 [`docs/limitations.md`](docs/limitations.md) for the full honest scope.
 
-## When the 3 ESP32 boards arrive
+## ESP32 Board Configuration
 
 Follow [`docs/flashing-guide.md`](docs/flashing-guide.md) exactly. In short:
 
